@@ -1,3 +1,5 @@
+CURRENTLY UNDER MAINTENANCE
+
 # UDP-Chat
 A simple network client chat where users can communicate using their source port, destination port and destination IP. Each user starts up the program, enters the connection parameters, and then indicates they are ready to start listening. This then starts up a thread that ever after continually listens for incoming data on the specified port number.
 
