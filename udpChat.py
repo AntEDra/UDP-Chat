@@ -41,22 +41,22 @@ conn_frame = Frame()
 message_entry = Entry(conn_frame, width=50)
 
 listening_port_label = Label(conn_frame, text='Listening Port',
-                             font=('Times', 12))
+                             font=('courier', 10))
 listening_port_entry = Entry(conn_frame, width=10)
 listening_port_entry.bind('<Return>', lambda e=0: begin_listening())
 
 destination_port_label = Label(conn_frame, text='Destination Port',
-                               font=('Times', 12))
+                               font=('courier', 10))
 destination_port_entry = Entry(conn_frame, width=14)
 
 destination_ip_label = Label(conn_frame, text='Destination ip',
-                             font=('Times', 12))
+                             font=('courier', 10))
 destination_ip_entry = Entry(conn_frame, width=14)
 
-name_label = Label(conn_frame, text='Name', font=('Times', 12))
+name_label = Label(conn_frame, text='Name', font=('courier', 10))
 name_entry = Entry(conn_frame, width=14)
 
-output_label = ScrolledText(height=12, width=24, font=('Times', 12))
+output_label = ScrolledText(height=12, width=24, font=('courier', 10))
 
 # Changed conn_frame to font.
 
